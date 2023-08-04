@@ -1,0 +1,67 @@
+.inventory-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1800px;
+    position: absolute;
+    top: -400px;
+}
+
+.inventory-product {
+    justify-content: center;
+    flex: 0 0 25%;
+    list-style: none;
+}
+
+.inventory-product-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 9px;
+}
+
+.inventory-product-image:hover{
+    transform: scale(1.05);
+}
+
+.inventory-product-text {
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(139, 160, 105);
+}
+
+.inventory-product-name {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(67, 98, 18);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.inventory-product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(67, 98, 18);
+}
+
+.inventory-category-name {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(67, 98, 18);
+    font-size: 10px;
+    letter-spacing: 1px;
+}

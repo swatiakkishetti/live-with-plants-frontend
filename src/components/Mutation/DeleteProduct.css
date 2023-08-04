@@ -1,0 +1,64 @@
+.popup-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(73, 149, 199);
+    margin-top: 50px;
+}
+
+.update-btn {
+    margin-right: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    color: rgb(67, 98, 18);
+    cursor: pointer;
+}
+
+.update-btn:hover{
+    background-color: rgb(170, 245, 220);
+}
+
+.update-btn:focus {
+    background-color: rgb(132, 169, 157);
+    color: white;
+}
+
+.close-btn {
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    color: rgb(67, 98, 18);
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    background-color: rgb(170, 245, 220);
+}
+
+.close-btn:focus {
+    background-color: rgb(132, 169, 157);
+    color: white;
+}
+
+.delete-popup {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(67, 98, 18);
+    height: 200px;
+    
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+.delete-text {
+    text-align: center;
+    margin-top: 50px;
+}

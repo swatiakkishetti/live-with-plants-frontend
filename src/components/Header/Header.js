@@ -1,23 +1,45 @@
 import React from "react"
 import './Header.css'
-import FacebookLogo from '../../images/facebook.png'
-import InstagramLogo from '../../images/instagram.png'
-import TwitterLogo from '../../images/twitter.png'
-import PinterestLogo from '../../images/pinterest.png'
+import { FacebookIcon, FacebookShareButton } from 'react-share';
+import { TwitterShareButton, TwitterIcon } from 'react-share';
+import { WhatsappShareButton, WhatsappIcon, PinterestShareButton, PinterestIcon } from 'react-share';
 
 export default function Header() {
     return (
         <div>
-            <nav>
-                <h4 className="feedback">Feedback</h4>
-                <h4 className="reports">Reports</h4>
-                <h4 className="franchise">Franchise</h4>
-                <img src={FacebookLogo} className="facebook"></img>
-                <img src={InstagramLogo} className="instagram"></img>
-                <img src={TwitterLogo} className="twitter"></img>
-                <img src={PinterestLogo} className="pinterest"></img>
-                
-            </nav>
+            <div className="navbar">
+                <div className="menu-items">
+                    <h4 className="feedback">Feedback</h4>
+                    <h4 className="reports">Reports</h4>
+                    <h4 className="franchise">Franchise</h4>
+                </div>
+
+                <ul className="social-icons">
+                    <li>
+                        <FacebookShareButton className="icon">
+                            <FacebookIcon size={28} round />
+                        </FacebookShareButton>
+                    </li>
+                    <li>
+                        <TwitterShareButton className="icon">
+                            <TwitterIcon size={28} round />
+                        </TwitterShareButton>
+                    </li>
+
+                    <li>
+                        <WhatsappShareButton className="icon">
+                            <WhatsappIcon size={28} round />
+                        </WhatsappShareButton>
+                    </li>
+
+                    <li>
+                        <PinterestShareButton className="icon">
+                            <PinterestIcon size={28} round />
+                        </PinterestShareButton>
+                    </li>
+
+                </ul>
+            </div>
         </div>
     )
 }

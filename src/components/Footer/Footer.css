@@ -1,0 +1,20 @@
+.footer-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* margin-top: 100vh; */
+    /* min-height: 100%; */
+    /* margin-top: 2000px; */
+    top: 6500px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    position: inherit;
+    color: aqua;
+    left: 200px;
+}

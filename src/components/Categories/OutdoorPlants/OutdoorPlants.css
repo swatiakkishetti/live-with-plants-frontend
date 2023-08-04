@@ -1,0 +1,37 @@
+.outdoor {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100px;
+    top: 1100px;
+    left: 910px;
+  }
+
+  .outdoor-container {
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .outdoor-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(87, 125, 108);
+    object-fit: cover;
+  }
+
+  .outdoor-icon:hover{
+    transform: scale(1.2);
+  }
+  
+  .outdoor-text {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(67, 98, 18);
+    font-weight: 500;
+    margin-top: 10px;
+  }  

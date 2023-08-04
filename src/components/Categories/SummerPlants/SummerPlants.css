@@ -1,0 +1,41 @@
+.summer {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100px;
+    top: 1100px;
+    left: 300px;
+  }
+
+  .summer-container {
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .summer-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(107, 69, 69);
+    object-fit: cover;
+  }
+
+  .summer-icon:hover{
+    transform: scale(1.2);
+  }
+  
+  .summer-text {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(67, 98, 18);
+    font-weight: 500;
+    margin-top: 10px;
+  }  
+
+  .summer-products {
+    top: 1500px;
+  }
