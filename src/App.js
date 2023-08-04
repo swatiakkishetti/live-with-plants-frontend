@@ -21,7 +21,6 @@ import FloweringPlantsScreen from './components/Categories/FloweringPlants/Flowe
 import FruitPlantsScreen from './components/Categories/FruitPlants/FruitPlantsScreen';
 
 function App() {
-  const { pathname } = useLocation();
   const client = new ApolloClient({
     link: createHttpLink({ uri: "http://localhost:8050/graphql" }),
     cache: new InMemoryCache(),
@@ -36,7 +35,7 @@ function App() {
           <Welcome />
           <Routes>
             <Route exact path="/" element={<Inventory />} />
-            {pathname !== '/' && <Route path="/summer-plants" element={<SummerPlantsScreen />} />}
+            <Route path="/summer-plants" element={<SummerPlantsScreen />} />
             <Route exact path="/winter-plants" element={<WinterPlantsScreen />} />
             <Route exact path="/indoor-plants" element={<IndoorPlantsScreen />} />
             <Route exact path="/outdoor-plants" element={<OutdoorPlantsScreen />} />
