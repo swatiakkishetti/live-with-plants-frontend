@@ -11,12 +11,12 @@ export default function Slider() {
     return (
         <div className="slide">
             <div className="wrapper">
-                <img src={Icon1} alt="product" className="image"></img>
-                <img src={Icon2} alt="product" className="image"></img>
-                <img src={Icon3} alt="product" className="image"></img>
-                <img src={Icon4} alt="product" className="image"></img>
-                <img src={Icon5} alt="product" className="image"></img>
-                <img src={Icon6} alt="product" className="image"></img>
+                <img src={Icon1} alt="icon1" className="image"></img>
+                <img src={Icon2} alt="icon2" className="image"></img>
+                <img src={Icon3} alt="icon3" className="image"></img>
+                <img src={Icon4} alt="icon4" className="image"></img>
+                <img src={Icon5} alt="icon5" className="image"></img>
+                <img src={Icon6} alt="icon6" className="image"></img>
             </div>
         </div>
     );
